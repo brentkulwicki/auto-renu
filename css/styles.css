@@ -1,0 +1,21 @@
+/* baseline styles */
+* {
+    box-sizing: border-box;
+}
+/* ART section */
+#video {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video>hr {
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} 
