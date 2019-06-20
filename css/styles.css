@@ -78,7 +78,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    height: 22.5vw;
+    width: 40vw;
 }
 .jumbo {
     width: 100vw;
