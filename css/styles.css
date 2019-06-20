@@ -1,12 +1,11 @@
 /* color picker blue #11aadc */
-/* color picker oof-whites #f3f4ee #e9e9df #ebece7 #ebebe3 #ece-eeb*/
+/* color picker oof-whites #ffffff #e9e9df #ebece7 #ebebe3 #ece-eeb*/
 /* baseline styles */
 * {
     box-sizing: border-box;
-    background-color: #f3f4ee;
 }
 body {
-    background-color: #f3f4ee;
+    background-color: #ffffff;
 }
 hr {
     border-top: 1px solid #bfd7ff;
@@ -33,7 +32,7 @@ p {
     max-width: 20vw;
 }
 .bg-nav {
-    background-color: #f3f4ee !important;
+    background-color: #CBCBCB !important;
 }
 /* ee section */
 .contact-heading {
@@ -74,19 +73,31 @@ p {
     max-height: 400px;
     overflow: hidden;
 }
-/* ART section */
+/* ART section/jumbo */
 iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    height: auto;
 }
 .jumbo {
     width: 100vw;
-    height: 45vh;
+    height: 60vh;
 }
 #video {
+    display: inline-block;
     height: 100%;
-    width: 100%;
+    width: 47%;
+}
+#art-graphic {
+    display: inline-block;
+    width: 47%;
+    height: 100%;
+}
+#art-graphic>img {
+    width: 80%;
+    height: auto;
 }
 .heading-divider {
     width: 20%;
