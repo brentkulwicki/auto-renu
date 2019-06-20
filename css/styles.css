@@ -78,12 +78,11 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    height: auto;
+
 }
 .jumbo {
     width: 100vw;
-    height: 60vh;
+    height: 40vh;
 }
 #video {
     display: inline-block;
@@ -91,13 +90,13 @@ iframe {
     width: 47%;
 }
 #art-graphic {
-    display: inline-block;
-    width: 47%;
     height: 100%;
+    width: 48%;
+    display: inline-block;
 }
 #art-graphic>img {
-    width: 80%;
-    height: auto;
+    display: block;
+    max-width: 100%;
 }
 .heading-divider {
     width: 20%;
@@ -106,6 +105,9 @@ iframe {
     padding-top: 0px;
     padding-bottom: 0px;
 } 
+.centered-buttons {
+    display: block;
+}
 /* locations section */
 #locations>img {
     width: 100vw;
