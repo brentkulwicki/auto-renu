@@ -83,12 +83,14 @@ iframe {
 }
 .jumbo {
     width: 100vw;
-    height: 40vh;
+    height: 28vw;
+    background-color: #000000;
 }
 #video {
     display: inline-block;
     height: 100%;
     width: 47%;
+    padding-top: 2%;
 }
 #art-graphic {
     height: 100%;
@@ -108,6 +110,11 @@ iframe {
 } 
 .centered-buttons {
     display: block;
+}
+/* about us section */
+.center-text>p {
+    padding-right: 5%;
+    padding-left: 5%;
 }
 /* locations section */
 #locations>img {
