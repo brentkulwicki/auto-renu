@@ -20,7 +20,8 @@ h2 {
 }
 h4,
 h5,
-p {
+p,
+a {
     font-family: 'Montserrat', sans-serif;
 }
 /* secondary color override */
@@ -39,6 +40,10 @@ p {
 .jumbo {
     width: 100vw;
     height: 40vw;
+}
+.jumbo>h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* images */
 .two-wide-img {
@@ -61,6 +66,9 @@ p {
     padding: 4%;
 }
 /* ee section */
+#two-ee {
+    display: none;
+}
 .contact-heading {
     text-align: center;
 }
@@ -103,6 +111,17 @@ p {
 #art-container {
     background-color: #000000;
 }
+.art-section-divs {
+    display: inline-block;
+    height: 100%;
+}
+#meet-art {
+    width: 35%;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 5px;
+}
 iframe {
     display: block;
     margin-left: auto;
@@ -111,15 +130,13 @@ iframe {
     width: 40vw;
 }
 #video {
-    display: inline-block;
-    height: 100%;
-    width: 47%;
-    padding-top: 2%;
+    width: 44%;
+    padding-top: 3%;
+    vertical-align: top;
 }
 #art-graphic {
-    height: 100%;
-    width: 48%;
-    display: inline-block;
+    width: 19%;
+    vertical-align: baseline;
 }
 #art-graphic>img {
     display: block;
@@ -162,6 +179,13 @@ iframe {
     /* contact form */
     #contact-container {
         width: 60vw;
+    }
+    /* employee section */
+    #carousel-overrides {
+        display: none;
+    }
+    #two-ee {
+        display: unset;
     }
 }
 
