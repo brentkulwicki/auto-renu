@@ -33,6 +33,32 @@ p {
 }
 .bg-nav {
     background-color: #CBCBCB !important;
+    min-height: 10vh;
+}
+/*jumbo */
+.jumbo {
+    width: 100vw;
+    height: 40vw;
+}
+/* images */
+.two-wide-img {
+    display: inline-block;
+    width: 45vw;
+    height: 90%;
+    vertical-align: top;
+}
+.two-wide-img>img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+.copy-container {
+    display: inline-block;
+    width: 54vw;
+    height: 90%;
+}
+.copy-container>p {
+    padding: 4%;
 }
 /* ee section */
 .contact-heading {
@@ -73,18 +99,16 @@ p {
     max-height: 400px;
     overflow: hidden;
 }
-/* ART section/jumbo */
+/* ART section*/
+#art-container {
+    background-color: #000000;
+}
 iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 22.5vw;
     width: 40vw;
-}
-.jumbo {
-    width: 100vw;
-    height: 28vw;
-    background-color: #000000;
 }
 #video {
     display: inline-block;
@@ -121,12 +145,26 @@ iframe {
     width: 100vw;
     height: auto;
 }
-/* images */
-.two-wide-img {
-    display: inline-block;
-    width: 48vw;
-    padding: 5px;
+/* contact form */
+#contact-container {
+    width: 95vw;
 }
-.two-wide-img>img {
-    width: 95%;
+
+/* media queries */
+@media only screen and (min-width: 769px) {
+    /* contact form */
+    #contact-container {
+        width: 75vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /* contact form */
+    #contact-container {
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
 }
