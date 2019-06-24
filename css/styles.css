@@ -39,7 +39,6 @@ a {
 /*jumbo */
 .jumbo {
     width: 100vw;
-    height: 40vw;
 }
 .jumbo>h1 {
     padding-top: 5px;
@@ -59,7 +58,6 @@ a {
 }
 .copy-container {
     display: inline-block;
-    width: 54vw;
     height: 90%;
 }
 .copy-container>p {
@@ -135,12 +133,13 @@ iframe {
     vertical-align: top;
 }
 #art-graphic {
-    width: 19%;
+    width: 55%;
     vertical-align: baseline;
 }
 #art-graphic>img {
     display: block;
-    max-width: 100%;
+    max-width: 40%;
+    float: left;
 }
 .heading-divider {
     width: 20%;
@@ -169,13 +168,25 @@ iframe {
 #recap {
     margin-top: 2px;
 }
-
+/* footer */
+#address {
+    color: #828d8e;
+}
 /* media queries */
 @media only screen and (min-width: 769px) {
+    
+    .copy-container {
+        width: 54vw;
+    }
     /* contact form */
     #contact-container {
         width: 75vw;
     }
+    /* jumbo */
+    .jumbo {
+        height: 40vw;
+    }
+    
 }
 
 @media only screen and (min-width: 1000px) {
@@ -190,8 +201,19 @@ iframe {
     #two-ee {
         display: unset;
     }
+    /* jumbo */
+    .copy-container {
+        padding-top: 2%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-    
+    /* art section */
+    #art-graphic>h2 {
+        padding-top: 5%;
+    }
+    /* jumbo */
+    .copy-container {
+        padding-top: 5%;
+    }
 }
