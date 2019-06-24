@@ -109,7 +109,7 @@ a {
 }
 /* ART section*/
 #art-container {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .art-section-divs {
     display: inline-block;
@@ -117,7 +117,7 @@ a {
 }
 #meet-art {
     width: 35%;
-    color: #ffffff;
+    color: #212529;
     text-align: center;
     vertical-align: top;
     padding-top: 5px;
@@ -165,6 +165,9 @@ iframe {
 /* contact form */
 #contact-container {
     width: 95vw;
+}
+#recap {
+    margin-top: 2px;
 }
 
 /* media queries */
