@@ -36,9 +36,10 @@ a {
     max-width: 20vw;
 }
 .bg-nav {
-    background-color: #CBCBCB !important;
+    background-color: #1A1C40 !important;
     min-height: 10vh;
 }
+
 /*jumbo */
 .jumbo {
     width: 100vw;
@@ -173,7 +174,7 @@ iframe {
 }
 /* footer */
 #address {
-    color: #828d8e;
+    color: rgba(255,255,255,.5);
 }
 /* media queries */
 @media only screen and (min-width: 769px) {
