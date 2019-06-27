@@ -12,15 +12,15 @@
         <link rel="stylesheet" href="css/styles.css" type="text/css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-nav navbar-dark bg-light">
+        <nav class="navbar navbar-expand-lg bg-nav fixed-item navbar-dark bg-light">
             <a class="navbar-brand" href="#"><img id="logo" src="img/auto-renu-logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse bg-nav" id="navbarNavAltMarkup">
-                <div class="navbar-nav bg-nav">
-                    <a class="nav-item nav-link" href="#">Dealers</a>
-                    <a class="nav-item nav-link" href="#">Location</a>
-                    <a class="nav-item nav-link" href="#">Packages</a>
-                    <a class="nav-item nav-link" href="#">Ask ART</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#ar-section">AutoRenu</a>
+                    <a class="nav-item nav-link" href="#ee-section">Meet the Team</a>
+                    <a class="nav-item nav-link" href="#locations">Locations</a>
+                    <a class="nav-item nav-link" href="#contact-container">Ask ART</a>
                 </div>
             </div>
         </nav>
@@ -40,8 +40,9 @@
         </div>
     </div>
     <hr class="dividers">
+    <span class="link-spacing" id="ar-section"></span>
     <div class="center-text">
-        <h2>About Us</h2>
+        <h2>AutoRenu</h2>
         <p>The Automotive Industry has changed, so has the ways car dealers make 
             money, retain employees, and take care of their customers. With cars 
             being built better than ever, and used-car sales making up the bulk of 
@@ -53,9 +54,9 @@
         </p>
     </div>
     <hr class="dividers">
-    <div class="anchor" id="">
-        <a name="target"></a>
-        <h2 class="contact-heading anchor">Our Team</h2>
+    <span class="link-spacing" id="ee-section"></span>
+    <div class="anchor">
+        <h2 class="contact-heading anchor">Meet the Team</h2>
     </div>
     <div class="bd-example" id="carousel-overrides">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -251,6 +252,7 @@
         </div>
     </div>
     <hr class="dividers">
+    <span class="link-spacing" id="locations"></span>
     <div id="locations">
         <img src="img/car-pics/Louisville Knoxville Tupelo(1).png" alt="Locations in Louisville, KY, Tupelo, MS and Knoxville, TN.">
     </div>
@@ -281,9 +283,9 @@
             <iframe src="https://www.youtube.com/embed/cMXhzAwK8Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <hr class="dividers">
-    <!-- everything below pulled from DPS site - still need styling updates -->
-    <div class="container-fluid py-4" id="contact-container">
+    <hr class="dividers" >
+    <span class="link-spacing" id="contact-container"></span>
+    <div class="container-fluid py-4" id="form-container">
         <h2 class="contact-heading center-text">Ask ART</h2>
         <form action="contact.php" id="contact" method="POST">
             <div class="form-group">

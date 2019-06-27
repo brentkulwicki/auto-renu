@@ -27,6 +27,13 @@ p,
 a {
     font-family: 'Montserrat', sans-serif;
 }
+/* fix for links to header under navbar */
+.link-spacing {
+    display: block;
+    height: 15vh;
+    margin-top: -15vh;
+    visibility: hidden;
+}
 /* secondary color override */
 .bs-secondary {
     background-color: #11aadc !important;
@@ -39,10 +46,16 @@ a {
     background-color: #1A1C40 !important;
     min-height: 10vh;
 }
+.fixed-item {
+    width: 100vw;
+    position: fixed;
+    z-index: 16;
+}
 
 /*jumbo */
 .jumbo {
     width: 100vw;
+    padding-top: 20vw;
 }
 .jumbo>h1 {
     padding-top: 5px;
@@ -128,22 +141,24 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 22.5vw;
-    width: 40vw;
+    height: 45vw;
+    width: 80vw;
 }
 #video {
-    width: 44%;
-    padding-top: 3%;
+    width: 100%;
     vertical-align: top;
 }
 #art-graphic {
-    width: 55%;
+    width: 100%;
     vertical-align: baseline;
 }
 #art-graphic>img {
     display: block;
     max-width: 40%;
     float: left;
+}
+#art-graphic>h2 {
+    margin-top: 5%;
 }
 .heading-divider {
     width: 20%;
@@ -166,7 +181,7 @@ iframe {
     height: auto;
 }
 /* contact form */
-#contact-container {
+#form-container {
     width: 95vw;
 }
 #recap {
@@ -177,25 +192,44 @@ iframe {
     color: rgba(255,255,255,.5);
 }
 /* media queries */
+@media only screen and (min-width: 500px) {
+    .jumbo {
+        padding-top: 15vw;
+
+    }
+}
 @media only screen and (min-width: 769px) {
     
     .copy-container {
         width: 54vw;
     }
     /* contact form */
-    #contact-container {
+    #form-container {
         width: 75vw;
     }
     /* jumbo */
     .jumbo {
-        height: 40vw;
+        padding-top: 12vw;
+        /* height: 40vw; */
+    }
+    /* art section */
+    #art-graphic {
+        width: 55%;
+    }
+    iframe {
+        height: 22.5vw;
+        width: 40vw;
+    }
+    #video {
+        width: 44%;
+        padding-top: 3%;
     }
     
 }
 
 @media only screen and (min-width: 1000px) {
     /* contact form */
-    #contact-container {
+    #form-container {
         width: 60vw;
     }
     /* employee section */
@@ -209,6 +243,9 @@ iframe {
     .copy-container {
         padding-top: 2%;
     }
+    .jumbo {
+        padding-top: 10vw;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -219,5 +256,8 @@ iframe {
     /* jumbo */
     .copy-container {
         padding-top: 5%;
+    }
+    .jumbo {
+        padding-top: 9.5vw;
     }
 }
