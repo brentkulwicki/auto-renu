@@ -1,7 +1,8 @@
 <?php
 if(isset($_POST['email'])) {
  
-    $email_to = "robin@dealerproseries.com, tom@dealerproseries.com, brentkwebdev@gmail.com"; // input client email here
+    // $email_to = "robin@dealerproseries.com, tom@dealerproseries.com, brentkwebdev@gmail.com"; // input client email here
+    $email_to = "brentkwebdev@gmail.com";
     $email_subject = "New message for ART from AutoRenu website";
  
     function died($error) {
